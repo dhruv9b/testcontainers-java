@@ -28,8 +28,10 @@ updates:
     directory: "/"
     allow:
       - dependency-name: "com.gradle*"
+      - dependency-name: "com.diffplug.spotless"
     registries:
       - gradle-plugin-portal
+      
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
